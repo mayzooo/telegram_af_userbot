@@ -6,5 +6,5 @@ class UserHandlers:
         self.bot_client = bot_client
 
     async def user_message(self, client, message):
-        user_processor = UserMessages()
+        user_processor = UserMessages(czxczxvfhfgfsfdxcfdddscsdgsgfdgdfgd)
         await user_processor.forward_logic(client, message, self.bot_client)
